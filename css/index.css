@@ -1,11 +1,11 @@
-/* body {
+body {
     width: 70%;
     margin: 0% 0% 15% 15%
-} */
+}
 
 .nav-bar {
     background: pink;
-    height: 70px; 
+    height: 70px;
     line-height: 70px;
 }
 
@@ -13,7 +13,7 @@
     width: 100px;
     height: auto;
 }
-  
+
 .nav-navbar {
     float: right;
 }
@@ -53,8 +53,25 @@ aside {
     width: 100%;
     height: 50px;
     background-color: pink;
+    background-size: cover;
     margin-top: 5px;
     line-height: 50px
+}
+#contact{
+    background-color:pink;
+    color: black;
+    opacity: .5;
+}
+#contact:hover{
+    background-color:mediumaquamarine
+}
+.side-item:hover{
+    background-color:mediumaquamarine
+}
+.nav-item:hover{
+    background-color: chocolate;
+    border-radius: 5px;
+    
 }
 
 .active {
@@ -74,10 +91,11 @@ li[class="side-item active"] a {
 }
 
 .btn {
-    width: 100px;
-    height: 50px;
-    background-color: cadetblue;
-    color: #ffffff;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(216, 105, 14);
+    color: white;
+    margin-left: 190px;
     border: none;
     transition: all 0.9s
 }
@@ -85,7 +103,9 @@ li[class="side-item active"] a {
 .btn:hover {
     width: 100px;
     height: 50px;
-    background-color: pink;
+    text-decoration-line: underline;
+    background-color: rgb(216, 105, 14);
+    opacity: .4;
     color: black;
     border: none;
     transition: all 0.9s
@@ -107,7 +127,6 @@ tr {
 
 th {
     width: 150px;
-    height: 7rem;
 }
 
 input[type="text"], textarea {
@@ -120,7 +139,7 @@ input[type="text"], textarea {
     left: 0;
     bottom: 0;
     width: 70%;
-    height: 50px;
+    height: 70px;
     text-align: center;
     line-height: 50px;
     margin-left: 15%;
@@ -129,9 +148,4 @@ input[type="text"], textarea {
 
 .footer-content {
     color: white;
-}
-
-.center{
-    display: flex;
-    justify-content: center;
 }
